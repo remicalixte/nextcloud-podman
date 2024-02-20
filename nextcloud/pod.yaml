@@ -86,7 +86,7 @@ spec:
       claimName: nextcloud_db
   - name: nextcloud-data
     hostPath:
-      path: /data/nextcloud
+      path: /mnt/data/nextcloud
       type: Directory
     
 ---
