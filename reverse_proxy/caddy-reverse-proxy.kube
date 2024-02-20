@@ -1,0 +1,8 @@
+[Kube]
+AutoUpdate=registry
+Network=slirp4netns:allow_host_loopback=true,port_handler=slirp4netns
+Yaml=./pod.yaml
+
+
+[Install]
+WantedBy=default.target
