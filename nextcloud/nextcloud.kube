@@ -1,0 +1,9 @@
+[Kube]
+AutoUpdate=registry
+Network=slirp4netns:port_handler=slirp4netns
+UserNS=keep-id
+Yaml=./pod.yaml
+
+
+[Install]
+WantedBy=default.target
